@@ -20,6 +20,9 @@ if args.branch==None:
     os.system("git commit -m " + args.commit)
     os.system("git push ")
 
+
+
+
 else:
     os.system("git add " + args.add)
     os.system("git commit -m " + args.commit)
